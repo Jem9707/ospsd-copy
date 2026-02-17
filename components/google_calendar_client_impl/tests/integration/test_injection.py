@@ -4,7 +4,7 @@ with the API via dependency injection."""
 import calendar_client_api
 
 
-def test_dependency_injection_works():
+def test_dependency_injection_works() -> None:
     """
     Verify that importing the implementation package automatically 
     registers it with the API.
@@ -14,3 +14,4 @@ def test_dependency_injection_works():
 
     # 2. Verify we got the Google version, not a generic one
     assert type(client).__name__ == "GoogleCalendarClient"
+    
