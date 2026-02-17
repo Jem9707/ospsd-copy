@@ -9,6 +9,7 @@ def test_dependency_injection_works() -> None:
     Verify that importing the implementation package automatically 
     registers it with the API.
     """
+    
     # 1. Ask the API for a client
     client = calendar_client_api.get_client()
 
