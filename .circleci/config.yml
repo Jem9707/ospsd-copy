@@ -50,7 +50,6 @@ jobs:
             source .venv/bin/activate
             uv run ruff check .
 
-
   typecheck:
     docker:
       - image: cimg/python:3.11
