@@ -1,3 +1,6 @@
+"""Integration test to verify that the Google Calendar client implementation is properly registered
+with the API via dependency injection."""
+
 import calendar_client_api
 
 
